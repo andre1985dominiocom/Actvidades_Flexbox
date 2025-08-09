@@ -44,6 +44,10 @@ body {
     padding: 20px;
     text-align: center;
     color: wheat;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
 }
 
 .tarjeta__titulo {
@@ -55,6 +59,9 @@ body {
 .tarjeta__descripcion {
     font-size: 20px;
     margin-bottom: 20px;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
 }
 
 .tarjeta__precio {
@@ -72,10 +79,7 @@ body {
     border-radius: var(--border-radius);
     cursor: pointer;
     font-size: 16px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    transition: background-color 0.3s, color 0.3s;
+    margin-top: auto;
 }
 
 .tarjeta__boton--modified:hover {
