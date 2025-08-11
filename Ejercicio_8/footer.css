@@ -1,0 +1,19 @@
+/* 8. Footer con tres columnas distribuidas equitativamente. */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.footer__col {
+    flex: 1;
+    padding: 0 10px;
+}
+

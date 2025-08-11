@@ -1,0 +1,23 @@
+/* 7. Componente de testimonial con avatar a la izquierda y texto a la derecha. */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.testimonial {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.testimonial__avatar {
+    margin-right: 10px;
+}
+
+.testimonial__text {
+    flex: 1;
+}

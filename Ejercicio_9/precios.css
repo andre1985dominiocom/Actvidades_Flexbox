@@ -1,0 +1,25 @@
+/* 9. Sección de precios con tarjetas alineadas horizontalmente. */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.precios {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.precio {
+    flex: 1;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.precio__valor {
+    font-weight: bold;
+}

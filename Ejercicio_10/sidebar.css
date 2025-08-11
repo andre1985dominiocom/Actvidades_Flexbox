@@ -1,0 +1,44 @@
+/* 10. Sidebar de navegación con ítems verticales alineados y justificados. */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.sidebar {
+    display: flex;
+    justify-content: flex-start;
+    width: 250px;
+    background-color: #fff;
+    padding: 15px;
+    border-right: 1px solid #ccc;
+    position: fixed;
+    height: 100%;
+}
+
+.sidebar h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #333;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
