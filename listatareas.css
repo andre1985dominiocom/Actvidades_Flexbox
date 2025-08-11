@@ -1,0 +1,41 @@
+/* 6. Lista de tareas con ítems centrados y espaciados uniformemente. */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+}
+
+.lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.lista__tareas {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.lista__tareas input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.lista__tareas label {
+    font-size: 16px;
+}

@@ -1,0 +1,37 @@
+/* 5. Encabezado de sección con ícono y texto justificados. */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.encabezado {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+.encabezado__icono {
+    font-size: 24px;
+    color: #333;
+    margin-right: 10px;
+}
+
+.encabezado__texto h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.encabezado__texto p {
+    font-size: 14px;
+    color: #666;
+}
