@@ -19,10 +19,10 @@ body {
 }
 
 .galeria__item {
-    flex: 1 1 200px;
+    flex: 1 1 300px;
     max-width: 450px;
-    min-width: 650px;
-    flex-direction: row;
+    min-width: 250px;
+    margin: 10px;
 }
 
 .galeria__item img {
